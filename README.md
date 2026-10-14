@@ -8,7 +8,7 @@
 
 Emotional Diary is an Android-based personal diary application that allows users to record their daily experiences, manage diary entries, and understand their emotions through AI-powered emotion detection. The application combines diary management, Firebase cloud services, and generative AI to provide a convenient and personalized journaling experience.
 
-## ✨ Features
+## Features
 
 - **User Registration & Login** — Create an account and sign in securely.
 - **Email Verification** — Verify the registered email address.
@@ -28,7 +28,7 @@ Emotional Diary is an Android-based personal diary application that allows users
 - **Notification Settings** — Manage notification preferences.
 - **Logout** — Sign out of the application.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -42,7 +42,7 @@ Emotional Diary is an Android-based personal diary application that allows users
 | Gemini 3.6 Flash | AI-based emotion detection |
 | Material Design | User interface and design components |
 
-## 🤖 AI-Based Emotion Detection
+## AI-Based Emotion Detection
 
 Emotional Diary uses Firebase AI Logic to interact with the pre-trained Gemini 3.6 Flash model.
 
@@ -61,7 +61,7 @@ The detected emotion is associated with the diary entry and can contribute to th
 
 **Note:** The project uses a pre-trained generative AI model. A custom machine learning model was not trained for this application.
 
-## 🔥 Firebase Integration
+## Firebase Integration
 
 The application uses Firebase services for its cloud-based functionality:
 
@@ -70,7 +70,7 @@ The application uses Firebase services for its cloud-based functionality:
 - **Firebase Storage:** Supports image and file storage.
 - **Firebase AI Logic:** Connects the Android application to the Gemini generative AI model.
 
-## 📱 Application Screenshots
+## Application Screenshots
 
 Add your application screenshots in this section.
 
@@ -93,7 +93,7 @@ Example Markdown syntax:
 
 Create a `screenshots` folder in the repository and place your screenshot images inside it.
 
-## ⚙️ Requirements
+## Requirements
 
 - Android Studio
 - Java development support
@@ -102,12 +102,12 @@ Create a `screenshots` folder in the repository and place your screenshot images
 - Firebase configuration file (`google-services.json`)
 - Internet connection for Firebase cloud services and AI emotion detection
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/EmotionalDiary.git
+   git clone https://github.com/ashfaqlabib/EmotionalDiary.git
    ```
 
 2. Open Android Studio.
@@ -136,14 +136,14 @@ Create a `screenshots` folder in the repository and place your screenshot images
 
 **Important:** Firebase configuration, required APIs, security rules, and AI access must be configured correctly before all features will work.
 
-## 🔐 Security and Privacy
+## Security and Privacy
 
 - Firebase Authentication manages account authentication.
 - Password management is handled through Firebase Authentication rather than storing plain-text passwords in the application's diary database.
 - Firestore and Storage security rules should restrict access to authorized users' data.
 - Do not upload private credentials, API keys, or personal user data to the public repository.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Develop a user-friendly Android diary application.
 - Provide secure user authentication.
@@ -152,7 +152,7 @@ Create a `screenshots` folder in the repository and place your screenshot images
 - Visualize emotional patterns through summary statistics.
 - Use Firebase services for cloud-based data management.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential future improvements include:
 
@@ -161,7 +161,7 @@ Potential future improvements include:
 - Additional diary organization and filtering options.
 - Enhanced privacy controls and data export features.
 
-## 👨‍💻 Development Team
+## Development Team
 
 **Project Name:** Emotional Diary  
 **Project Type:** Android Mobile Application  
@@ -169,7 +169,7 @@ Potential future improvements include:
 **Database:** Firebase Cloud Firestore  
 **AI Model:** Gemini 3.6 Flash
 
-## 📄 License
+## License
 
 This project was developed for academic purposes. Add an appropriate open-source license if you intend to distribute or reuse the source code publicly.
 
