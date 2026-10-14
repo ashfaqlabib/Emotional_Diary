@@ -1,10 +1,9 @@
-# 📝 Emotional Diary
+# Emotional Diary
 
+### A Secure Personal Diary Mobile Application
 <p align="center">
   <img src="icon.png" width="600">
 </p>
-
-### A Secure Personal Diary Mobile Application
 
 Emotional Diary is an Android-based personal diary application that allows users to record their daily experiences, manage diary entries, and understand their emotions through AI-powered emotion detection. The application combines diary management, Firebase cloud services, and generative AI to provide a convenient and personalized journaling experience.
 
